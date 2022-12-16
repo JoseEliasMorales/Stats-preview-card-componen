@@ -10,9 +10,10 @@
 <body>
   <main>
     <div class="card">
-      <div class="card__imageBox">
-        <img src="./images/image-header-mobile.jpg" alt="" class="card__image">
-      </div>
+      <picture class="card__imageBox">
+        <source media="(min-width: 992px)" srcset="./images/image-header-desktop.jpg">
+        <img src="./images/image-header-mobile.jpg" alt="We help grow your business" class="card__image">
+      </picture>
       <div class="card__description">
         <div class="card__boxTitleParragraph">
           <h1 class="card__title">Get <span class="card__titleWord">insights</span> that help your business grow.</h1>
