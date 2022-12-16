@@ -1,0 +1,45 @@
+@media screen and (min-width:992px) {
+    .card{
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: left;
+        width: 1080px;
+        max-width: 90%;
+        height: 446px;
+        .card__imageBox{
+            width: 50%;
+            min-width: 50%;
+            border-radius: 0 10px 10px 0;
+        }
+        .card__description{
+            margin: 0 auto;
+            //padding-right: 6rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            max-width: 35%;
+            .card__boxTitleParragraph{
+                .card__parragraph{
+                    padding-top: 1rem;
+                    line-height: 1.5rem;
+                    letter-spacing: normal;
+                }
+            }
+            .card__boxStats{
+                display: flex;
+                padding-left: 1rem;
+                .card__statsName{
+                    display: block;
+                    letter-spacing: normal;
+                    margin: 0;
+                    padding-right:2rem ;
+                    .card__sName{
+                        font-size: 13px;
+                        font-weight: 400;
+                        
+                    }
+                }
+            }
+        }
+    }
+}

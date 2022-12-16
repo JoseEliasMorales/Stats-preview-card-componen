@@ -1,0 +1,68 @@
+.card{
+    background:var(--cardback--color);
+    width: 400px;
+    max-width: 90%;
+    text-align: center;
+    font-family:Inter, sans-serif;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    .card__imageBox{
+        width: 100%;
+        background: var(--accent-color);
+        overflow: hidden;
+        border-radius: 10px 10px 0 0;
+        display: flex;
+        .card__image{
+            width: 100%;
+            object-fit: cover;
+            mix-blend-mode: multiply;
+            opacity: 0.7;
+        }
+    }
+    .card__description{
+        margin-top: 3rem;
+        padding: 0 2rem 1rem 2rem;
+        .card__boxTitleParragraph{
+            .card__title{
+                color: var(--stats-color);
+                font-size: 2rem;
+                padding: 0 1rem;
+                .card__titleWord{
+                    color: var(--accent-color);
+                }
+            }
+            .card__parragraph{
+                font-weight: 400;
+                color: var(--parragraph-color);  
+                font-size: 15px;
+                letter-spacing: 1px;
+                line-height: 2rem;
+                padding: 0 1rem 1rem 1rem;
+            }
+        }
+        .card__boxStats{
+            .card__statsName{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 2rem auto;
+                .card__stats{
+                    font-size: 1.5rem;
+                    color: var(--stats-color);
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    margin: 0 auto 0.5rem auto;
+                }
+                .card__sName{
+                    font-family: 'Lexend Deca', sans-serif;
+                    font-weight: 400;
+                    color: var(--heading-color);
+                    text-transform: uppercase;
+                    font-size: 15px;
+                    margin: 0;
+                    letter-spacing: 1px;
+                }
+            }
+        }    
+    }
+}
