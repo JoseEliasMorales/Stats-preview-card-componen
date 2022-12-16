@@ -94,7 +94,7 @@ body main .attribution {
     text-align: left;
     width: 1080px;
     max-width: 90%;
-    height: 446px;
+    height: 400px;
   }
   .card .card__imageBox {
     width: 50%;
@@ -106,7 +106,7 @@ body main .attribution {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    max-width: 35%;
+    max-width: 39%;
   }
   .card .card__description .card__boxTitleParragraph .card__parragraph {
     padding-top: 1rem;
@@ -121,7 +121,7 @@ body main .attribution {
     display: block;
     letter-spacing: normal;
     margin: 0;
-    padding-right: 2rem;
+    padding-right: 3rem;
   }
   .card .card__description .card__boxStats .card__statsName .card__sName {
     font-size: 13px;
